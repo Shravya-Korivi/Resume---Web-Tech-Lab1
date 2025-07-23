@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(189, 213, 245);
+    align-items:center
+
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+.panel{
+    margin-top:500;
+    margin-right: 500;
+    background-color: rgb(177, 211, 240)
+}
+.banner{
+    background-color: rgb(166, 181, 209);
+    margin: 20, 20, 20, 20;
+    padding: 50, 250;
+    text-align: center;
+    color: rgb(13, 6, 105);
+
+}
+.card{
+    background-color:rgb(161, 196, 228);
+    box-shadow:20,0, 12, rgba(0,0,0,20);
+    padding: 500, 500;
+    margin-left: 500;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.nav{
+    margin:50,50,50,50;
+}
