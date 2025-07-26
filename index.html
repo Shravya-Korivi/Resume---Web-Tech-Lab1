@@ -1,80 +1,90 @@
-<!-- Resule website for a fresher full Stack Developer -->
-
+<!--
+   Professional resume webpage for a Full Stack Developer.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Stack Developer Resume</title>
-    <link rel= "stylesheet" href="style.css">
+    <title>Fresher Full Stack Developer Resume</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <header class = "banner">
-        <h1> Shravya Korivi </h1>
-        <p> Full Stack Developer </p>
-        <address> 
-            <a href="mailto:shravya@gmail.com">|shravya@gmail.com |</a>
-            <a href="telto:1234567890"> 1234567890 |</a>
-            <span> Chennai, India|</span>
-        </address>
-    </header>
-   <div class="layout">
-    <div class="panel">
-        <aside>
-            <div class="profile-pic">
-                <img src="" alt="Profile Picture">
-            </div>
-            <div class="nav">
-                <nav>
-                    <ul>
-                        <li> <a href = #profile> Profile </a></li>
-                        <li> <a href = #skills> Skills </a> </li>
-                        <li> <a href = #education>  Education </a></li>
-                        <li> <a href = #projects> Projects </a> </li>
-                    </ul>
-                </nav>
-            </div>
-        </aside>
-    </div>
-    <div>
-        
-        <main class = main-content>
-            <section id=profile class="card">
-                <h3> Profile </h3>
-                <p> An Enthusiastic full-stack developer ready to develop scalable applications for an IT company</p>
-            </section>
-            <section id=skills class="card">
-                <h3>Technical Skills </h3>
+    <!-- Site Layout: Sidebar and Main Content -->
+    <div class="site-layout">
+        <aside class="sidebar">
+            <!-- Sidebar Navigation -->
+            <nav>
                 <ul>
-                    <li> Languages: JavaScript, Python, Java</li>
-                    <li> Frontend: HTML, CSS, React</li>
-                    <li> Backend: NodeJs, Angular</li>
-                    <li> Version Control: Git</li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <!-- Banner/Header Section -->
+            <header class="banner">
+                <h1>Shravya K</h1>
+                <p>Full Stack Developer</p>
+                <address>
+                    <a href="mailto:shravya.k@gmail.com">shravya.k@email.com</a> |
+                    <a href="tel:+1234567890">+1 234 567 890</a> |
+                    <span>Chennai, India</span>
+                </address>
+            </header>
+            <!-- Profile Section -->
+            <section id="profile" class="card">
+                <h2>Profile</h2>
+                <p>Enthusiastic and detail-oriented Computer Science graduate with a passion for building scalable web applications. Eager to contribute as a full stack developer in a dynamic IT company.</p>
+            </section>
+            <!-- Technical Skills Section -->
+            <section id="skills" class="card">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>Languages: JavaScript, Python, Java</li>
+                    <li>Frontend: HTML5, CSS3, React.js</li>
+                    <li>Backend: Node.js, Express.js</li>
+                    <li>Database: MongoDB, MySQL</li>
+                    <li>Version Control: Git, GitHub</li>
                 </ul>
             </section>
-            <section id=education class="card">
-                <h3>  Education </h3>
-                <p> 
-                    <strong>
-                        B.tech Artificial Intelligence and Data Science
-                    </strong>
-                    <br>
-                    CGPA: 8.95
-                </p>
-                
+            <!-- Education Section -->
+            <section id="education" class="card">
+                <h2>Education</h2>
+                <div>
+                    <h3>Bachelor of Technology in Artificial Intelligence and Data Science</h3>
+                    <p>Shiv Nadar University, 2023-2027</p>
+                    <p>CGPA: 8.95/10</p>
+                </div>
             </section>
-            <section id=projects class="card">
-                <h3> Projects </h3>
-                    <ul>
-                        <li> Online blogging website using MERN</li>
-                        <li> Hotel Management System </li>
-                    </ul>
+            <!-- Projects Section -->
+            <section id="projects" class="card">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <strong>Online Bookstore Web App</strong> &mdash; Developed a MERN stack application for browsing and purchasing books online.
+                    </li>
+                    <li>
+                        <strong>Task Manager API</strong> &mdash; Built a RESTful API using Node.js and Express for managing daily tasks.
+                    </li>
+                    <li>
+                        <strong>Portfolio Website</strong> &mdash; Designed and deployed a personal portfolio using React and Netlify.
+                    </li>
+                </ul>
             </section>
-   </div> 
-</div>
+            <!-- Interests Section -->
+            <section id="interests" class="card">
+                <h2>Interests</h2>
+                <p>Open Source, UI/UX Design, Cloud Computing, Hackathons</p>
+            </section>
+            <!-- Footer with Social Links -->
+            <footer class="footer">
+                <a href="https://github.com/Shravya-Korivi" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/shravya-k-3a500528b/" target="_blank">LinkedIn</a>
+            </footer>
+        </main>
+    </div>
 </body>
-<footer>
-    <a href="sample"> Github | </a>
-    <a href="sample"> LinkedIn </a>
-</footer>
-</html>
+</html> 
