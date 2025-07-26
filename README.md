@@ -5,6 +5,9 @@ The goal of this assignment is to demonstrate proficiency in HTML and CSS by cre
 Features:
 
 Modern Layout: Utilizes semantic HTML5 and organized CSS for a visually appealing and accessible design.
+
 Responsive Design: Adapts to different screen sizes for optimal viewing on desktops, tablets, and mobile devices.
+
 Sectioned Content: Includes Profile, Technical Skills, Education, Projects, Interests, and Social Links.
+
 Well-Commented Code: Both HTML and CSS files include professional comments for clarity and maintainability.
